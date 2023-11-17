@@ -1,0 +1,60 @@
+:root {
+    --font-color: rgb(255, 200, 225);
+    --background-color: rgb(25, 35, 60)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+.head, .subhead {
+    text-align: center;
+    font-style: italic;
+}
+
+.head {
+    margin-top: 25px;
+    font-size: 60px;
+}
+
+.subhead {
+    font-size: 45px;
+}
+
+.search {
+    margin: 25px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbox {
+    text-align: center;
+    font-style: italic;
+    width: 60%;
+    height: 30px;
+    font-size: 18px;
+}
+
+hr {
+    margin: auto;
+    margin-top: 10px;
+    width: 95%;
+    border-top: 3px solid rgb(255, 200, 225);
+
+}
+
+.pins hr {
+    margin: auto;
+}
+
+.pins {
+    height: 550px;
+    margin: auto;
+}
